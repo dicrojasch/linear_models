@@ -1,10 +1,10 @@
-# Columnas del modelo de distribución
+# Variables del modelo de distribución
 
 Este archivo describe brevemente cada columna utilizada en el modelo de distribución de viajes. A continuación se listan las variables y su significado:
 
 - **max_nivel_edu**: Indica el nivel educativo máximo alcanzado por los integrantes del hogar.
 - **app_antes_vj**: Señala si se utilizó alguna aplicación (p. ej., para planificar) antes de iniciar el viaje.
-- **otro_vj**: Indica si existe un encadenamiento adicional de viaje (viajes previos o posteriores inmediatos).
+- **otro_vj**: Indica si existe un transbordo adicional de viaje (viajes previos o posteriores inmediatos).
 - **orden_vj**: Orden secuencial del viaje dentro del día (1 = primer viaje, 2 = segundo viaje, etc.).
 - **estra_hg**: Estrato socioeconómico del hogar (categoría socioeconómica asignada en la encuesta).
 - **etapas**: Número de etapas que componen el viaje (subtramos con cambio de modo o interrupción).
@@ -22,7 +22,7 @@ Este archivo describe brevemente cada columna utilizada en el modelo de distribu
 - **mean_modo_pub**: Proporción de viajes realizados en transporte público.
 - **mean_modo_tax**: Proporción de viajes en taxi (taxi ocupado).
 - **mean_modo_otro**: Proporción de viajes en otros modos (especial, informal, etc.).
-- **mean_otro_viaje**: Proporción de viajeros que no realizaron viajes adicionales (o cuyo encadenamiento fue distinto).
+- **mean_otro_viaje**: Proporción de viajeros que no realizaron viajes adicionales (o cuyo transbordo fue distinto).
 - **mean_freq_todos_dias**: Proporción de individuos que viajan prácticamente todos los días.
 - **mean_freq_varios_dias**: Proporción de individuos que viajan varias veces a la semana.
 - **mean_freq_otro**: Proporción de individuos con una frecuencia de viaje distinta (ni diario ni varias veces a la semana).
